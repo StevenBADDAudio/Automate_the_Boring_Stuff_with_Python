@@ -32,10 +32,4 @@ for experimentNumber in range(10000):
             count_T = 0
             numberOfStreaks += 1
 
-#print(count)        
-#numberOfStreaks = count / 10000
-
-#print(sample[1])
-#print(sample[1][97:(97+5)])
-
 print('Chance of streak:  %s%%' % (numberOfStreaks / 100))
