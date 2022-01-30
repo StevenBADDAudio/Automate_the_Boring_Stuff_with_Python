@@ -21,11 +21,13 @@ for experimentNumber in range(10000):
 
         if sample[experimentNumber][flip:(flip + 6)] == ['H', 'H', 'H', 'H', 'H', 'H']:
             count += 1
+            break
         elif sample[experimentNumber][flip:(flip + 6)] == ['T', 'T', 'T', 'T', 'T', 'T']:
             count += 1
+            break
         else:
             continue
        
-numberOfStreaks = count / 1000000 * 100
+numberOfStreaks = count / 10000 * 100
 
 print(f'Chance of streak: {numberOfStreaks}%')
