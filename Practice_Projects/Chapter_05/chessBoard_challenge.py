@@ -17,9 +17,9 @@
 # chess board.
 
 current_board = {'1a': 'bking', '2a': 'bqueen', '3a': 'bknight',
-'4a': 'bbishop', '5a': 'brook', '6a': 'bpawn',  
-'1b': 'wking', '2b': 'wqueen', '3b': 'wknight',
-'4b': 'wbishop', '5b': 'wrook', '6b': 'wpawn'}
+                 '4a': 'bbishop', '5a': 'brook', '6a': 'bpawn',  
+                 '1b': 'wking', '2b': 'wqueen', '3b': 'wknight',
+                 '4b': 'wbishop', '5b': 'wrook', '6b': 'wpawn'}
 
 
 def isValidChessBoard(board):
