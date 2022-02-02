@@ -98,6 +98,9 @@ def isValidChessBoard(board):
     if (king_w > 1) or (king_b > 1):
         print('Too many Kings!')
         correct_number = False
+    elif (king_w == 0) or (king_b == 0):
+        print('Not enough Kings!')
+        correct_number = False
     elif (queen_w > 1) or (queen_b > 1):
         print('Too many Queens!')
         correct_number = False
